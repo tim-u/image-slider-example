@@ -1,5 +1,7 @@
-A simple image slider in AngularJS.
+## A simple image slider in AngularJS.
 
 To run:
 
-# npm start
+npm install
+
+npm start
