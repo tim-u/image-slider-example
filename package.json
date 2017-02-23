@@ -1,0 +1,11 @@
+{
+  "name": "imageSliderExample",
+  "private": true,
+  "version": "0.0.1",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 8080 -c-1 ./app"
+  }
+}

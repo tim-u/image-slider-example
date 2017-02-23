@@ -1,0 +1,15 @@
+<div class="image-container">
+  <img ng-repeat="url in sources"
+         ng-src="{{url}}"
+         ng-if="$index == currentSrc"
+         ng-swipe-right="move('right')"
+         ng-swipe-left="move('left')"
+         ng-class="direction"
+         class="slide">
+</div>
+<div class="dot-container">
+  <span ng-repeat="i in sources"
+        ng-click="setSrc($index)"
+        class="dot {{$index == currentSrc ? 'active' : ''}}">
+  </span>
+</div>
